@@ -1,4 +1,4 @@
-## IceCream project
+## IceCream 🍦 project
 
 ### Used Technologies:
 
