@@ -1,58 +1,21 @@
-# Parcel boilerplate
+## IceCream project
 
-## Скрытые файлы
+### Used Technologies:
 
-Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не
-сможете выбрать и скопировать себе файлы настроек проекта, имена которых начинаются с точки.
+![HTML5 Badge](https://img.shields.io/badge/-html-e34c26?style=for-the-badge&labelColor=black&logo=html5&logoColor=e34c26)
+![SASS Badge](https://img.shields.io/badge/-sass-cd6769?style=for-the-badge&labelColor=black&logo=sass&logoColor=cd6769)
+![CSS3 Badge](https://img.shields.io/badge/-css-264de4?style=for-the-badge&labelColor=black&logo=css3&logoColor=264de4)
+![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
+![NPM Badge](https://img.shields.io/badge/-npm-cc3534?style=for-the-badge&labelColor=black&logo=npm&logoColor=cc3534)
+![Parcel Badge](https://img.shields.io/badge/-parcel-daab78?style=for-the-badge&labelColor=black&logo=box&logoColor=daab78)
 
-## Зависимости
+### Was developed:
 
-На компьютере должена быть установлена LTS-версия [Node.js](https://nodejs.org/en/) со всеми
-дополнительными инструментами кроме **Chocolatey** - его ставить не нужно.
+- Website for ice cream company
+- Design and layout of the project
+- Project architecture
+- Adaptive layout
+- Interactive added on page
+- Team project
 
-## Перед началом работы
-
-Один раз на проект установить все зависимости.
-
-```shell
-npm ci
-```
-
-### Разработка
-
-Запустить режим разработки.
-
-```shell
-npm run dev
-```
-
-Во вкладке браузера перейти по адресу [http://localhost:1234](http://localhost:1234).
-
-### Деплой
-
-Сборка будет автоматически собирать и деплоить продакшен версию проекта на GitHub Pages, в ветку
-`gh-pages`, каждый раз когда обновляется ветка `main`. Например, после прямого пуша или принятого
-пул-реквеста. Для этого необходимо в файле `package.json` отредактировать поле `homepage` и скрипт
-`build`, заменив `имя_пользователя` и `имя_репозитория` на свои.
-
-```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /имя_репозитория/"
-},
-```
-
-На всякий случай стоит зайти в настройки репозитория `Settings` > `Pages` и убедиться что продакшен
-версии файлов раздаются из папки `/root` ветки `gh-pages`.
-
-Через какое-то время живую страницу можно будет посмотреть по адресу указанному в отредактированном
-свойстве `homepage`, например
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Файлы и папки
-
-- Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
-  `src/sass/main.scss`
-- Изображения добавляйте в папку `src/images`, заранее оптимизировав их. Сборщик просто копирует
-  используемые изображения чтобы не нагружать систему оптимизацией картинок, так как на слабых
-  компьютерах это может занять много времени.
+#### [Deployed project link](https://dsurdiy.github.io/ice-cream-project/)
